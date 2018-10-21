@@ -20,6 +20,7 @@ modelname = '' #model save name, initialized un svfb_trainner.py
 cnn = None #object variable, initialized un svfb_trainner.py
 
 
+
 class InceptionModule(nn.Module): #conv net module, inspired on google inception archtecture
 	def __init__(self, in_channels, a, b, c, d):
 		super(InceptionModule,self).__init__()
